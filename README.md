@@ -22,7 +22,7 @@ This repo specifically documents the work done in **Week 0**, covering both intr
 - I Prepared notes based on the introductory video **Digital VLSI SoC Design and Planning**.  
 - I Got an idea on the entire design flow and planning involved in a Chip Fabrication.  
 
-👉 [See Task 1 Notes](./Task-1.md)  
+👉 [See Task 1](./Task-1.md)  
 
 ---
 
@@ -30,7 +30,7 @@ This repo specifically documents the work done in **Week 0**, covering both intr
 - Installed the required software: **Icarus Verilog**, **GTKWave**, and **Yosys**.  
 - Saved installation screenshots in the `Screenshots/` folder.
 
-👉 [See Task 2 Setup](./Task-2.md)  
+👉 [See Task 2](./Task-2.md)  
 
 ---
 
