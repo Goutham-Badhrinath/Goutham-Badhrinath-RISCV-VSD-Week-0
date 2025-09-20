@@ -28,7 +28,7 @@ This repo specifically documents the work done in **Week 0**, covering both intr
 
 ### 🛠️ Task 2: Environment Setup  
 - Installed the required software: **Icarus Verilog**, **GTKWave**, and **Yosys**.  
-- Saved installation screenshots in the `.Screenshots/` folder.
+- Saved installation screenshots in the `Screenshots/` folder.
 
 👉 [See Task 2 Setup](./Task-2.md)  
 
@@ -37,7 +37,7 @@ This repo specifically documents the work done in **Week 0**, covering both intr
 ## 📂 Repository Details
 - `Task-1.md` → Documentation of Getting started video  
 - `Task-2.md` → Tool setup steps and screenshots  
-- `.Screenshots/` → Folder with captured screenshots  
+- `Screenshots/` → Folder with captured screenshots  
 
 ---
 
