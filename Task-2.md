@@ -33,8 +33,8 @@ sudo apt-get update
 sudo apt-get install iverilog
 ```
 ---
-### 🔹 Terminal Output 
-![iverilog Screenshot](.Screenshots/iverilog.jpg)
+### 🔹 Terminal
+![iverilog Screenshot](.Screenshots/iverilog.png)
 
 ## 2️⃣ Installing GTKWave  
 
@@ -44,15 +44,15 @@ sudo apt-get update
 sudo apt install gtkwave 
 ```
 ---
-### 🔹 Terminal Output
-![GTKWave Screenshot](.Screenshots/gtkwave.jpg)
+### 🔹 Terminal
+![GTKWave Screenshot](.Screenshots/gtkwave.png)
 
 ## 3️⃣ Installing Yosys  
 
 ### 🔹 Installation Steps  
 ```bash
 $ sudo apt-get update
-$ git clone https://github.com/YosysHQ/yosys.git
+$ git clone --recursive https://github.com/YosysHQ/yosys.git
 $ cd yosys
 $ sudo apt install make (If make is not installed please install it)
 $ sudo apt-get install build-essential clang bison flex \
@@ -60,16 +60,16 @@ $ sudo apt-get install build-essential clang bison flex \
  graphviz xdot pkg-config python3 libboost-system-dev \
  libboost-python-dev libboost-filesystem-dev zlib1g-dev
 $ make config-gcc
-$ make
+$ make -j$(nproc)
 $ sudo make install 
 ```
 ---
-### 🔹 Terminal Output
-![Yosys Screenshot](.Screenshots/yosys.jpg)
+### 🔹 Terminal
+![Yosys Screenshot](.Screenshots/yosys.png)
 
 
 
 
-## ✅ Outcome  
+## ✅ Conclusion 
 - Installed and verified : **Icarus Verilog**, **GTKWave**, and **Yosys**.  
-- Tools are ready for **simulation, waveform analysis, and synthesis**.  
+- Tools are ready for **Simulation, Waveform Analysis, and Synthesis**.  
